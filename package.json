@@ -12,6 +12,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "fast-csv": "^2.4.1",
     "koa": "^2.5.1",
     "koa-body": "^1.7.0",
     "koa-compose": "^4.1.0",
