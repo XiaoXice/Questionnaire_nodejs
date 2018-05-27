@@ -1,0 +1,32 @@
+question
+    |- user
+    |   |- student_id
+    |   |- name
+    |   |- school
+    |   |- user_class
+    |   |- telephone
+    |   |- user_ip
+    |   |- test_list
+    |   |   |- test_paper_id
+    |- activity
+    |   |- name
+    |   |- start_time
+    |   |- end_time
+    |   |- question_list
+    |   |- time_lim
+    |   |- contestant_paper_list
+    |- question
+    |   |- type
+    |   |- problem
+    |   |- answer
+    |   |   |- content
+    |   |   |- price
+    |   |   |- try_user_list
+    |- test_paper
+    |   |- user_id
+    |   |- activity_id
+    |   |- question_list
+    |   |- answer_list
+    |   |- time_start
+    |   |- time_end
+    |   |- fraction
